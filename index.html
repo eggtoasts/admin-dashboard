@@ -5,31 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <div class="top-header">Top</div>
+        <div class="top-header header-item">Top</div>
 
-        <div class="bottom-header">Lala</div>
+        <div class="bottom-header header-item">Lala</div>
       </div>
       <div class="sidebar">
-        <div class="dashboard-title">Dashboard</div>
+        <div class="dashboard-title">
+          <span
+            class="iconify dashboard-icon"
+            data-icon="mdi-view-dashboard"
+          ></span>
+          Dashboard
+        </div>
+        <div class="sidebar-item home">
+          <span class="iconify" data-icon="mdi-home"></span> Home
+        </div>
+        <div class="sidebar-item">
+          <span
+            class="iconify"
+            data-icon="mdi-card-account-details-outline"
+          ></span>
+          Profile
+        </div>
+        <div class="sidebar-item">
+          <span class="iconify" data-icon="mdi-home"></span> Messages
+        </div>
+        <div class="sidebar-item">
+          <span class="iconify" data-icon="mdi-history"></span> History
+        </div>
+        <div class="sidebar-item">
+          <span class="iconify" data-icon="mdi-note-multiple"></span> Tasks
+        </div>
+        <div class="sidebar-item">
+          <span class="iconify" data-icon="mdi-home"></span> Communities
+        </div>
 
-        <div class="sidebar-item">Home</div>
-        <div class="sidebar-item">Profile</div>
-        <div class="sidebar-item">Messages</div>
-        <div class="sidebar-item">History</div>
-        <div class="sidebar-item">Tasks</div>
-        <div class="sidebar-item">Communities</div>
-
-        <div class="sidebar-item">Settings</div>
-        <div class="sidebar-item">Support</div>
-        <div class="sidebar-item">Privacy</div>
+        <div class="sidebar-item settings">
+          <span class="iconify" data-icon="mdi-cog"></span> Settings
+        </div>
+        <div class="sidebar-item">
+          <span class="iconify" data-icon="mdi-home"></span> Support
+        </div>
+        <div class="sidebar-item">
+          <span class="iconify" data-icon="mdi-shield-check"></span> Privacy
+        </div>
       </div>
       <div class="page-container">
+        <div class="projects-title">Your Projects</div>
         <div class="projects">
-          <div class="projects-title">Your Projects</div>
           <div class="project-item">
             <div class="title">Random Project</div>
             <div class="desc">Lalalala</div>
@@ -56,9 +84,8 @@
           </div>
         </div>
 
-        <div class="anouncements">
-          <div class="announcements-title">Announcements</div>
-        </div>
+        <div class="announcements-title">Announcements</div>
+        <div class="anouncements">anouncement stuff</div>
 
         <div class="trending">
           <div class="trending-title">Trending</div>
