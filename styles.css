@@ -15,6 +15,7 @@ div {
 }
 
 :root {
+  --darkblue: #0a73ac;
   --blue: #1992d4;
   --grey: #e2e8f0;
   --white: #ffffff;
@@ -29,6 +30,9 @@ input {
   border-radius: 20px;
   width: 600px;
   height: 23px;
+  padding: 4px;
+  padding-left: 10px;
+  color: var(--secondary-text-color);
 }
 
 .header .iconify {
@@ -198,7 +202,8 @@ input {
 
 .sidebar-item {
   font-size: 20px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
+  padding: 10px;
 }
 
 .projects-title {
@@ -289,6 +294,7 @@ input {
 }
 
 .trending .bio {
+  margin-top: 3px;
   font-size: 90%;
 }
 
@@ -367,4 +373,29 @@ input {
 .announcements {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+button,
+.project-item,
+.announcements-item,
+.trending-item,
+.sidebar-item {
+  transition: 0.3s;
+}
+
+button:hover,
+.sidebar-item:hover {
+  background-color: var(--darkblue);
+  cursor: pointer;
+}
+
+.project-item:hover,
+.announcements-item:hover,
+.trending-item:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+.iconify:hover {
+  cursor: pointer;
 }
