@@ -4,7 +4,7 @@ An admin dashboard layout. 🖥️ The live site: [View it here](https://eggtoas
 
 ## About the Project
 
-This project is another assignment from [The Odin Project](https://www.theodinproject.com/) curriculum.
+This project is another assignment from [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard) curriculum.
 
 My primary focus for this project was practicing CSS Grid and Flexbox.
 
